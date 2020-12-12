@@ -12,3 +12,7 @@ Un thread est une unité d'exécution faisant partie d'un programme. Cette unit�
 
 #### On va créer une classe Chrono qui hérite du Thread, par la suite vous devez écrire le code du chrono dans le corps d'une methode overriden appelé run(), finalement vous devez créer un objet du classe Chrono et le démarrer par "objet.start();"
 #### Pour créer un autre chronomètre, créez simplement un autre objet et exécutez-le.
+## Chrono obj1 = new Chrono();
+## Chrono obj2 = new Chrono();
+## obj1.start();
+## obj2.start();
